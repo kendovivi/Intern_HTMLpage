@@ -1,0 +1,263 @@
+font.title_anno {
+  font-size: 1.2em;
+  font-family: 'Impact';
+}
+
+font.title_MR {
+  font-size: 1.2em;
+  font-family: 'arial black';
+  color: #9C2E2E;
+}
+
+font.part1_1 {
+  font-size: 3em;
+  line-height: 50px;
+  font-family: 'arial narrow';
+}
+
+font.part1_2 {
+  font-size: 4.5em;
+  line-height: 1;
+  font-family: 'arial narrow';
+  color: #9C2E2E;
+}
+
+font.part1_3 {
+  font-size: 2em;
+  line-height: 1;
+  font-family: 'arial narrow';
+}
+
+font.part1_article {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Gulim';
+}
+
+font.part1_4 {
+  font-size: 1.1em;
+  font-family: 'arial black';
+}
+
+font.part2_article {
+  font-size: 1em;
+  line-height: 1.3;
+  font-family: 'Gulim';
+}
+
+font.part2_1 {
+  font-size: 1.3em;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: 'Gulim';
+  color: #9C2E2E;
+}
+
+font.part2_2 {
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: 'arial narrow'; 
+}
+
+font.table_1 {
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Gulim";
+  color: #9C2E2E;
+}
+
+header {
+  border: 0px solid blue;
+  margin: 0 0 50px 100px;
+  verticle-align:middle;
+  width:1100;
+}
+
+body {
+  background-position: -600px -300px;
+  background-image: url(../png/background.png);
+  
+}
+
+table.title {
+  border: 0px solid red;
+  display: inline;
+}
+
+ul.language {
+  border: 0px solid red;
+  width: 300px;
+  margin:0 0 0 450px;
+  display: inline;
+}
+
+ul.language li{
+  font-size: 1.2em;
+  font-weight: bold;
+  display: inline;
+}
+
+div.part1 {
+  border: 0px solid red;
+  width: 1100px;
+  height:818px;
+  margin: 0 0 0 100px;
+}
+
+div.part1_left {
+  float: left;
+  width: 600px;
+  margin: 20px 0 0 0;
+}
+
+div.part1_right1 {
+  float: left;
+  z-index: 1;
+  margin: 0 0 0 20px;
+}
+
+div.part1_right2 {
+  position: absolute;
+  top: 625px;
+  left: 865px;
+  z-index: 2;
+}
+
+div.part1_right3 {
+  position: absolute;
+  top: 680px;
+  left: 875px;
+  z-index: 3;
+}
+
+div.part2_border {
+  background-color: #FFFFFF;
+  border: 5px solid #7E6C47;
+  width: 1000px;
+  height: 820px;
+  margin: 0 0 0 100px;
+}
+
+div.part2 {
+  background-color: #FFFFFF;
+  background-image: url(../png/decorate2.png);
+  background-size: 992px 812px;
+  border:2px solid #7E6C47;
+  width:992px;
+  height:812px;
+  margin:2px 2px 2px 2px;
+}
+
+div.part2_left1 {
+  border: 0px solid red;
+  width: 500px;
+  float: left;
+  margin: 40px 30px 0 40px;
+}
+
+div.part2_right1 {
+  border: 0px solid red;
+  float: left;
+  margin: 40px 0 0 0;
+}
+
+div.part2_left2 {
+  border: 0px solid red;
+  float: left;
+  margin: 40px 40px 40px 40px;
+}
+
+div.part2_right2 {
+  border: 0px solid red;
+  width: 500px;
+  float: left;
+  margin: 40px 0 0 0;
+}
+
+font.table_2 {
+  font-size: 3em;
+  font-family: 'arial narrow';
+}
+
+td.title_deco {
+  text-align: center;
+  background-image: url(../png/decorate1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  verticle-align: middle;
+}
+
+font.table_3 {
+  font-size: 1em;
+  font-family: 'Gulim';
+  font-weight: bold;
+}
+
+td.title_deco2 {
+  text-align: center;
+  width: 485px;
+  background-image: url(../png/decorate3.png);
+  background-size: 485px 42px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.circle {
+  text-align: center;
+  background-image: url(../png/circle.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 0px solid blue;
+}
+
+div.part3 {
+  border: 0px solid #000000;
+  width: 1000px;
+  margin: 50px 0 0 100px;
+}
+
+table.paticipate {
+  width:1000px;
+  line-height:20px;  
+}
+
+.textstyle1 {
+  padding: 0 10 0 10;
+  border:0px solid red;
+}
+
+.registerLink {
+  height: 50;
+  vertical-align: middle;
+  background-image: url(../png/registerBtn.png);
+  background-repeat: no-repeat;
+  background-size: 220px 35px;
+  background-position: 10px center;
+  padding-left:15;
+  font-size:15px;
+  font-weight:bold;
+}
+
+#splitLine {
+  background-color: #ffffff;
+  width:100%;
+  height:2px;
+  margin-top: 50;
+  border-top:1px solid silver;
+  border-bottom: 5px solid silver;  
+}
+
+#article4 {
+  height:500;
+  background-color: #FAF5F5;
+}
+
+footer {
+  height:140;
+  background-image: url(../png/footer.png);
+  background-color: #FAF5F5;
+  position: relative;
+  z-index: 2;
+  border:0px solid red;
+}
