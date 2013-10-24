@@ -35,10 +35,25 @@ font.part1_article {
 }
 
 font.part1_4 {
-  font-size: 1.1em;
+  background-image: url(../png/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding: 10px 10px 10px 25px;
+  font-size: 0.9em;
   font-family: 'arial black';
+  border-left: 1px dotted #000000;
 }
 
+font.part1_4_1 {
+  background-image: url(../png/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding: 10px 10px 10px 25px;
+  font-size: 0.9em;
+  font-family: 'arial black';
+  border-left: 1px dotted #000000;
+  border-right: 1px dotted #000000;
+}
 font.part2_article {
   font-size: 1em;
   line-height: 1.3;
@@ -93,9 +108,25 @@ ul.language {
 }
 
 ul.language li{
-  font-size: 1.2em;
-  font-weight: bold;
   display: inline;
+  padding: 0 0 0 5px;
+}
+
+ul.language li a:link {
+  font-size: 0.9em;
+  font-weight: bold;
+  font-family: 'sans-serif','serif';
+  text-decoration: none;
+  color: #000000;
+}
+
+ul.language li a:hover {
+  font-size: 0.9em;
+  font-weight: bold;
+  font-family: 'sans-serif','serif';
+  background-color: #9C2E2E;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 div.part1 {
@@ -203,12 +234,19 @@ td.title_deco2 {
   background-position: center center;
 }
 
-.circle {
+td.circle_mark {
   text-align: center;
+  vertical-align: middle;
   background-image: url(../png/circle.png);
   background-repeat: no-repeat;
+  #background-size: 88px 88px;
   background-position: center center;
   border: 0px solid blue;
+  font-size: 1.7em;
+  color: #FFFFFF;
+  line-height: 1.1;
+  font-family: 'fantasy';
+  padding-top: 15px;
 }
 
 div.part3 {
@@ -222,21 +260,46 @@ table.paticipate {
   line-height:20px;  
 }
 
-.textstyle1 {
-  padding: 0 10 0 10;
-  border:0px solid red;
+font.table_article {
+  font-size: 0.8em;
+  font-family: "Gulim";
+  line-height: 1.5;
 }
 
-.registerLink {
+td.part3_article {
+  padding: 0 10px 0 10px;
+}
+td.registerLink {
   height: 50;
   vertical-align: middle;
   background-image: url(../png/registerBtn.png);
   background-repeat: no-repeat;
   background-size: 220px 35px;
   background-position: 10px center;
-  padding-left:15;
-  font-size:15px;
-  font-weight:bold;
+  font-size: 1em;
+  font-family: 'Impact';
+}
+
+td.registerLink a:link {
+  font-size: 1em;
+  font-family: 'Impact';
+  color: #000000;
+  text-decoration: none;
+  padding: 0 0 0 5px;
+}
+
+td.registerLink a:hover {
+  font-size: 1.2em;
+  font-family: 'Impact';
+  color: #9C2E2E;
+  text-decoration: none;
+}
+
+td.registerLink a:visited {
+  font-size: 1em;
+  font-family: 'Impact';
+  color: #000000;
+  text-decoration: none;
 }
 
 #splitLine {
@@ -248,9 +311,51 @@ table.paticipate {
   border-bottom: 5px solid silver;  
 }
 
-#article4 {
+div.part4 {
   height:500;
   background-color: #FAF5F5;
+}
+
+div.part4_1 {
+  width: 650px;
+  float: left;
+  margin: 20px 0 0 150px;
+}
+
+div.part4_1 a:link{
+  font-size: 1em;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 3px solid silver;
+  margin: 0 0 0 10px;
+}
+
+div.part4_1 a:hover{
+  font-size: 1.1em;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 3px double silver;
+}
+
+
+
+
+div.part4_2 {
+  float: left;
+  margin: 30px 0 0 20px;
+}
+
+font.part4_1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Gulim';
+  line-height: 1; 
+}
+
+font.part4_article {
+  font-size: 0.8em;
+  font-family: 'Gulim';
+  line-height: 1.6;
 }
 
 footer {
