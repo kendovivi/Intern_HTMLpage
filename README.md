@@ -11,3 +11,11 @@ Intern_HTMLpage
 
 10/24 Details modification. 
       2nd commit.
+      
+schedule on 10/25      
+
+*global background-image position
+*page width, height in different browser
+*encoding Shift_JIS, EUC-JP
+*fix in IE6
+*clean up codes
