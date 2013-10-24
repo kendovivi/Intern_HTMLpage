@@ -1,0 +1,113 @@
+font.title_anno {
+  font-size: 1.2em;
+  font-family: 'Impact';
+}
+
+font.title_MR {
+  font-size: 1.2em;
+  font-family: 'arial black';
+  color: #9C2E2E;
+}
+
+font.part1_1 {
+  font-size: 3em;
+  line-height: 50px;
+  font-family: 'arial narrow';
+}
+
+font.part1_2 {
+  font-size: 4.5em;
+  line-height: 1;
+  font-family: 'arial narrow';
+  color: #9C2E2E;
+}
+
+font.part1_3 {
+  font-size: 2em;
+  line-height: 1;
+  font-family: 'arial narrow';
+}
+
+font.part1_article {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Gulim';
+}
+
+font.part1_4 {
+  background-image: url(../png/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding: 10px 10px 10px 25px;
+  font-size: 0.9em;
+  font-family: 'arial black';
+  border-left: 1px dotted #000000;
+}
+
+font.part1_4_1 {
+  background-image: url(../png/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding: 10px 10px 10px 25px;
+  font-size: 0.9em;
+  font-family: 'arial black';
+  border-left: 1px dotted #000000;
+  border-right: 1px dotted #000000;
+}
+font.part2_article {
+  font-size: 1em;
+  line-height: 1.3;
+  font-family: 'Gulim';
+}
+
+font.part2_1 {
+  font-size: 1.3em;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: 'Gulim';
+  color: #9C2E2E;
+}
+
+font.part2_2 {
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: 'arial narrow'; 
+}
+
+font.table_1 {
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Gulim";
+  color: #9C2E2E;
+}
+
+font.table_2 {
+  font-size: 3em;
+  font-family: 'arial narrow';
+}
+
+font.table_3 {
+  font-size: 1em;
+  font-family: 'Gulim';
+  font-weight: bold;
+}
+
+font.table_article {
+  font-size: 0.8em;
+  font-family: "Gulim";
+  line-height: 1.5;
+}
+
+font.part4_1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Gulim';
+  line-height: 1; 
+}
+
+font.part4_article {
+  font-size: 0.8em;
+  font-family: 'Gulim';
+  line-height: 1.6;
+}
