@@ -1,31 +1,33 @@
 header {
   border: 0px solid blue;
-  margin: 0 0 50px 100px;
-  verticle-align:middle;
-  width:1100;
+  margin: 0 0 50px 50px;
+  width:1000px;
+  height:50px;
 }
 
 body {
-  background-position: -600px -300px;
   background-image: url(../png/background.png);
-  
+  margin: 0 0 0 0;
+  border-left: 100px solid #151D25;
+  border-right: 100px solid #151D25;
 }
 
 table.title {
   border: 0px solid red;
-  display: inline;
+  height: 50px;
 }
 
 ul.language {
   border: 0px solid red;
-  width: 300px;
-  margin:0 0 0 450px;
-  display: inline;
+  height: 50px;
+  margin:0 0 0 0px;
+  padding-left: 0px;
 }
 
 ul.language li{
-  display: inline;
-  padding: 0 0 0 5px;
+  display: inline-table;
+  padding: 0px 5px 0 5px;
+  margin: 12px 0 0 0;
 }
 
 ul.language li a:link {
@@ -47,9 +49,9 @@ ul.language li a:hover {
 
 div.part1 {
   border: 0px solid red;
-  width: 1100px;
+  width: 1110px;
   height:818px;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 70px;
 }
 
 div.part1_left {
@@ -61,20 +63,20 @@ div.part1_left {
 div.part1_right1 {
   float: left;
   z-index: 1;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 30px;
 }
 
 div.part1_right2 {
   position: absolute;
   top: 625px;
-  left: 865px;
+  left: 970px;
   z-index: 2;
 }
 
 div.part1_right3 {
   position: absolute;
-  top: 680px;
-  left: 875px;
+  top: 690px;
+  left: 985px;
   z-index: 3;
 }
 
@@ -82,17 +84,17 @@ div.part2_border {
   background-color: #FFFFFF;
   border: 5px solid #7E6C47;
   width: 1000px;
-  height: 820px;
-  margin: 0 0 0 100px;
+  height: 840px;
+  margin: 0 0 0 70px;
 }
 
 div.part2 {
   background-color: #FFFFFF;
   background-image: url(../png/decorate2.png);
-  background-size: 992px 812px;
+  background-size: 992px 832px;
   border:2px solid #7E6C47;
   width:992px;
-  height:812px;
+  height:832px;
   margin:2px 2px 2px 2px;
 }
 
@@ -142,9 +144,8 @@ td.title_deco2 {
 td.circle_mark {
   text-align: center;
   vertical-align: middle;
-  background-image: url(../png/circle.png);
+  background-image: url(../png/circle_blue.png);
   background-repeat: no-repeat;
-  #background-size: 88px 88px;
   background-position: center center;
   border: 0px solid blue;
   font-size: 1.7em;
@@ -157,7 +158,7 @@ td.circle_mark {
 div.part3 {
   border: 0px solid #000000;
   width: 1000px;
-  margin: 50px 0 0 100px;
+  margin: 50px 0 0 75px;
 }
 
 table.paticipate {
@@ -169,7 +170,7 @@ td.part3_article {
   padding: 0 10px 0 10px;
 }
 td.registerLink {
-  height: 50;
+  height: 50px;
   vertical-align: middle;
   background-image: url(../png/registerBtn.png);
   background-repeat: no-repeat;
@@ -188,7 +189,7 @@ td.registerLink a:link {
 }
 
 td.registerLink a:hover {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: 'Impact';
   color: #9C2E2E;
   text-decoration: none;
@@ -205,20 +206,20 @@ td.registerLink a:visited {
   background-color: #ffffff;
   width:100%;
   height:2px;
-  margin-top: 50;
+  margin-top: 50px;
   border-top:1px solid silver;
   border-bottom: 5px solid silver;  
 }
 
 div.part4 {
-  height:500;
+  height:500px;
   background-color: #FAF5F5;
 }
 
 div.part4_1 {
   width: 650px;
   float: left;
-  margin: 20px 0 0 150px;
+  margin: 40px 0 0 90px;
 }
 
 div.part4_1 a:link{
@@ -238,11 +239,12 @@ div.part4_1 a:hover{
 
 div.part4_2 {
   float: left;
-  margin: 30px 0 0 20px;
+  margin: 40px 0 0 30px;
+  border: 1px solid silver;
 }
 
 footer {
-  height:140;
+  height:140px;
   background-image: url(../png/footer.png);
   background-color: #FAF5F5;
   position: relative;

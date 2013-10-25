@@ -11,11 +11,16 @@ Intern_HTMLpage
 
 10/24 Details modification. 
       2nd commit.
-      
-schedule on 10/25      
+      Seperated css file.
+      3rd commit.
 
-*global background-image position
-*page width, height in different browser
+10/25 fixed background-image     
+      
+      *problem: font size appears different in different browsers (Arial Narrow in Firefox seems much more bigger than in Chrome and broke the page layout).
+      4th commit.
+
+
+schedule left:
 *encoding Shift_JIS, EUC-JP
 *fix in IE6
 *clean up codes
