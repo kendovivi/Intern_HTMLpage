@@ -1,3 +1,15 @@
+body {
+  background-image: url(../png/background.png);
+  width: 100%;
+  margin: 0 0 0 0;
+  /*
+  border-left: 100px solid #151D25;
+  border-right: 100px solid #151D25;
+  */
+}
+
+/* Header */
+
 header {
   border: 0px solid blue;
   width:1100px;
@@ -14,15 +26,7 @@ header {
   float:right;
 }
 
-body {
-  background-image: url(../png/background.png);
-  width: 100%;
-  margin: 0 0 0 0;
-  /*
-  border-left: 100px solid #151D25;
-  border-right: 100px solid #151D25;
-  */
-}
+
 
 table.title {
   /* doesn't work in footer used padding instead in line 192
@@ -61,6 +65,8 @@ ul.language li a:hover {
   text-decoration: none;
 }
 
+/* Part 1 */
+
 div.part1 {
   border: 0px solid red;
   width: 1100px;
@@ -93,6 +99,8 @@ div.part1_right3 {
   left: 895px;
   z-index: 3;
 }
+
+/* Part 2 */
 
 div.part2_border {
   background-color: #FFFFFF;
@@ -138,13 +146,20 @@ div.part2_right2 {
   margin: 40px 0 0 10px;
 }
 
+/* Part 3 */
+
 div.part3 {
   border: 0px solid #000000;
   width: 1100px;
   margin: 50px 0 0 120px;
 }
 
-.part3_mid_divider {
+table.paticipate {
+  width:1100px;
+  line-height:20px;  
+}
+
+td.part3_mid_divider {
   width: 30px;
 }
 
@@ -182,17 +197,12 @@ td.circle_mark {
   padding-top: 15px;
 }
 
-table.paticipate {
-  width:1100px;
-  line-height:20px;  
-}
-
 td.part3_article {
   width: 400px;
   padding: 0 10px 0 10px;
 }
 
-.part3_note {
+td.part3_note {
   vertical-align:top;
   border-top: 1px dotted #000000;
   padding:20px 0 0 0;"
@@ -231,7 +241,7 @@ td.registerLink a:visited {
   text-decoration: none;
 }
 
-#splitLine {
+div.divider {
   background-color: #ffffff;
   width:100%;
 
@@ -241,6 +251,8 @@ td.registerLink a:visited {
   border-top:1px solid silver;
   border-bottom: 5px solid silver;  
 }
+
+/* Part4 */
 
 div.part4 {
   border:0px solid red;
@@ -276,6 +288,8 @@ div.part4_2 {
   margin: 40px 0 0 85px;
   border: 1px solid silver;
 }
+
+/* Footer */
 
 footer {
   height:140px;

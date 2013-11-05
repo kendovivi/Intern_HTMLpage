@@ -1,3 +1,5 @@
+/* Font */
+
 .font_title_anno {
   font-size: 1.2em;
   font-family: 'Impact';
@@ -10,22 +12,22 @@
 }
 
 .font_part1_1 {
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 50px;
-  font-family: 'arial narrow';
+  font-family: 'Times New Roman';
 }
 
 .font_part1_2 {
-  font-size: 4.5em;
+  font-size: 3.5em;
   line-height: 1;
-  font-family: 'arial narrow';
+  font-family: 'Times New Roman';
   color: #9C2E2E;
 }
 
 .font_part1_3 {
   font-size: 2em;
   line-height: 1;
-  font-family: 'arial narrow';
+  font-family: 'Times New Roman';
 }
 
 .font_part1_article {
@@ -72,7 +74,7 @@
   font-size: 3em;
   line-height: 1.5;
   font-weight: bold;
-  font-family: 'arial narrow'; 
+  font-family: 'Times New Roman'; 
 }
 
 .font_table_1 {
@@ -87,7 +89,7 @@
 .font_table_2 {
   font-size: 3em;
   line-height: 1.5em;
-  font-family: 'arial narrow';
+  font-family: 'Times New Roman';
 }
 
 .font_table_3 {

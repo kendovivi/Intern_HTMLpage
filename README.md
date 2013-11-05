@@ -18,6 +18,7 @@ Intern_HTMLpage
       
       *problem: font size appears different in different browsers (Arial Narrow in Firefox seems much more bigger than in Chrome and broke the page layout).
       4th commit.
+      *solution: (11/5) change font-family:"Arial Narrow" to font-family:"Times New Roman"
 
 
 11/5 (1) Modified code error
@@ -28,9 +29,15 @@ Intern_HTMLpage
      (2) Layout changing
      width fixed to 1100px
      deleted both borders of body
+     5th commit.
 
-schedule left:
-*encoding Shift_JIS, EUC-JP
-*fix in IE6
+     (3) Add encoded files:
+     intern_UTF-8.html
+     intern_Shift_JIS.html
+     intern_EUC-JP.html
+     (4) Add javascript source "html5shiv.js" in case of old version IE browsers
+
+     6th commit.
+
 
 
