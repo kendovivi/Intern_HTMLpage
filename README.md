@@ -20,7 +20,17 @@ Intern_HTMLpage
       4th commit.
 
 
+11/5 (1) Modified code error
+     change page declaration <!DOCTYPE HTML> to <!DOCTYPE html> 
+     change tag <font> to <span>
+     add "alt" attribution to tag <img>
+     style setting in tag <tr> now included in css files
+     (2) Layout changing
+     width fixed to 1100px
+     deleted both borders of body
+
 schedule left:
 *encoding Shift_JIS, EUC-JP
 *fix in IE6
-*clean up codes
+
+
